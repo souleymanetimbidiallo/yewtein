@@ -38,9 +38,8 @@
     <!-- Header -->
     @include('front.partials.frontend_hero')
     
-    <main>
-        @yield('content')
-    </main>
+    @yield('content')
+    
     
     <!-- Footer -->
     @include('front.partials.frontend_footer')
